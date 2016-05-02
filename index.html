@@ -64,10 +64,13 @@
     background: #112;
     color: #7BFF00;
     font-weight: 500;
+    text-align: left;
     margin-top:0px;
     
     }
+    
     header{
+    text-align: center;
     background: #345;
     color: #939393;
     font-weight: 500;
@@ -75,31 +78,74 @@
     width: 100%;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.26);
     }
+
     
+    nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    }
+
+    nav li {
+    display: inline;
+    border: solid;
+    border-width: 1px 1px 0 1px;
+    margin: 0 5px 0 0;
+    }
+
+    #selected {
+    position: relative;
+    top: 1px;
+    background: white;
+    }
+
+    nav li a {
+    background: #345;
+    color: #939393;
+    padding: 0 10px;
+    }
+
+
   </style>
 
   <body>
 
-    <div style="text-align: left;"><p1><b>Developped by sulfasTor</p1></div>
+    <header> 
+
+      <header><font size="7">WELCOME TO THE INTERNET</font>
+      <div style="text-align: right;"><p1><b>Developped by sulfasTor</p1></div></header>
+<nav>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li id="selected"><a href="about.html">About</a></li>
+    <li><a href="https://www.stallman.org/comics.html">Jokes</a></li>
+    <li><a href="index.html">Curriculum vitae</a></li>
+  </ul>
+</nav>
+
+</header>
+
+<section id="content">
+  <p><!-- Big lovely oodles of content --></p>
+  <section>
     
     <div style="text-align: center;"> 
-      <hr><header><font size="7">WELCOME TO THE INTERNET</font></header>
       <!--==================================================================-->
       <p align="center">
 	<h1>Interesting links:</h1>
         <form action="http://www.linuxjournal.com/" id="linux journal"
-              style="display:inline" target= '_blank'>
+	      style="display:inline" target= '_blank'>
           <input type="image" src="http://www.linuxjournal.com/files/linuxjournal.com/ufiles/logo-lj.jpg" height="60" width="60">
         </form>
 	<!--==================================================================-->
 	<!-- <p align="center">-->
         <form action="http://www.insa-lyon.fr" id="insa"
-              style="display:inline" target= '_blank'>
+	      style="display:inline" target= '_blank'>
           <input type="image" src="http://cia.asso.insa-lyon.fr/images/Partenaires/insa_lyon.png" height="60" width="60">
         </form>
 	<!--==================================================================-->
 	<form action="http://www.gnu.org" id="gnu site"
-              style="display:inline" target='_blank'>
+	      style="display:inline" target='_blank'>
           <input type="image" src="http://www.gnu.org/graphics/heckert_gnu.small.png" height="60" width="60" >
         </form>
 	<!--==================================================================-->
@@ -107,7 +153,7 @@
 
 	<br><p style="font-weight: normal"><big style=
 						"font-weight: normal"> "Have I not commanded you?<b> Be strong and courageous.</b> Do not be afraid; do not be discouraged, for the Lord your God will be with you wherever you go."
-	   - Joshua 1:9  </big></p>
+	  - Joshua 1:9  </big></p>
 	<hr>
 	<div style="text-align: left;">
 	  <aside>
@@ -157,6 +203,34 @@
 	    </p>
 	  </div>
 	</footer>
+
+	<!-- ===================== Logos =====================
+	     <hr><div id="footer-logos">
+	       <p>
+		 <span id="modification-time"></span>
+
+		 <span id="logos">
+		   <a rel="jslicense" href="/about-this-site.html#javascript">
+		     <img src="/images/librejs.png"
+			  title="JavaScript license information"
+			  alt="JavaScript license information"
+			  width="72" height="31" /></a>
+		   <a href="http://validator.w3.org/check?uri=referer">
+		     <img src="/images/valid-html5.png"
+			  title="Validate HTML5"
+			  alt="Valid HTML 5" width="88" height="31" /></a>
+		   
+		   <a href="http://jigsaw.w3.org/css-validator/check/referer">
+		     <img style="border:0;width:88px;height:31px"
+			  src="http://jigsaw.w3.org/css-validator/images/vcss"
+			  alt="Valid CSS!" />
+		   </a>
+		   
+		 </span>
+	       </p>
+	     </div>-->
+
+</body>
 
 
 </html>
