@@ -1,0 +1,77 @@
+<html lang="fr"><head>
+	    <title>Service d'authentification centralisée</title>
+	    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="robots" content="noindex,nofollow">
+	    <meta name="description" content="central authentication service">
+	    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	    <link rel="stylesheet" type="text/css" href="phishing_example_2_files/cas3-min.css">
+	    <link rel="icon" href="https://login.insa-lyon.fr/cas/themes/insa/media/favicon.ico" type="image/x-icon">
+	    <script type="text/javascript" src="phishing_example_2_files/jquery-1.js"></script>
+	</head>
+	<body id="cas">
+		<div id="content">
+			<div id="header">
+				<div class="logo">
+					<a href="http://www.insa-lyon.fr/" class="link-logo" target="_blank"><img src="phishing_example_2_files/logo-insa-2014.png"></a>
+				</div>
+				<h1>Service d'authentification centralisée</h1>
+			</div>
+			<div id="login">
+				<div class="login-content">
+					<form id="fm1" action="/cas/login?service=https%3A%2F%2Flogin.insa-lyon.fr%2Fzimbra%2Flogin%3Fversion%3Dpreferred" method="post" autocomplete="off"><h2><span>Entrez votre identifiant et votre mot de passe.</span></h2>
+    <div class="row">
+      <label for="username"><span class="accesskey">I</span>dentifiant:</label>
+      <input id="username" name="username" class="required" tabindex="1" accesskey="i" size="25" autocomplete="off" type="text"></div>
+    <div class="row">
+      <label for="password"><span class="accesskey">M</span>ot de passe:</label>
+      <input id="password" name="password" class="required" tabindex="2" accesskey="m" value="" size="25" autocomplete="off" type="password"></div>
+    <div class="row btn-row">
+      <input name="lt" value="LT-112493-7XUSbDabauFAGfmUbYYnzLQwhMgbaK-dsi48" type="hidden">
+      <input name="execution" value="e1s1" type="hidden">
+      <input name="_eventId" value="submit" type="hidden">
+
+      <input class="btn-submit" name="submit" accesskey="l" value="SE CONNECTER" tabindex="4" type="submit">
+      <input class="btn-reset" name="reset" accesskey="c" value="EFFACER" tabindex="5" type="reset">
+    </div>
+  </form><script type="text/javascript" src="phishing_example_2_files/jquery.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+ $(document).ready(function() {
+	 $('#username').focus();
+	 $(window).bind('capsOn', function(e){
+		 if ( ! $('#capsWarning').length ) { 
+			 $('#password').parent().after('<div class="row" id="capsWarning">Verrouillage Majuscule activ&eacute; !</div>').fadeIn();
+		 } else {
+			 $('#capsWarning').fadeTo('fast',1);
+		 }
+	 });
+	 $(window).bind("capsOff capsUnknown", function(e) {
+		$('#capsWarning').fadeOut('fast');
+	 });
+	 $(window).capslockstate();
+ });
+</script>
+</div>
+			</div>
+			<div id="list-languages">
+				<ul>
+					<li><a href="https://login.insa-lyon.fr/cas/login?service=https%3A%2F%2Flogin.insa-lyon.fr%2Fzimbra%2Flogin%3Fversion%3Dpreferred&amp;locale=fr" lang="fr">Français</a></li>
+					<li><a href="https://login.insa-lyon.fr/cas/login?service=https%3A%2F%2Flogin.insa-lyon.fr%2Fzimbra%2Flogin%3Fversion%3Dpreferred&amp;locale=en" lang="en">English</a></li>
+				</ul>
+			</div>
+			<div id="infos">
+				<p>Cette page est sécurisée et votre mot de passe ne sera jamais 
+transmis en clair sur le réseau. Pour changer votre mot de passe, 
+veuillez vous rendre sur <a href="https://planete.insa-lyon.fr/uPortal/p/insa-password-portlet" title="Changement de mot de passe sur Planete" target="_blank">la page de changement de mot de passe</a> (Il vous sera demandé de vous authentifier si nécéssaire).</p>
+				<p class="important">Pour des raisons de sécurité, veuillez vous 
+déconnecter et fermer votre navigateur lorsque vous avez fini d'accéder 
+aux services authentifiés.</p>
+			</div>
+			<div id="footer">
+				<p class="credits">Ce service d'authentification utilise le logiciel <a href="http://www.jasig.org/cas/" target="_blank">JASIG CAS (Central Authenfication Service)</a>.</p>
+			</div>
+		</div>
+	
+
+</body></html>

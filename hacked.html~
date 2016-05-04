@@ -1,0 +1,86 @@
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>sulfasTor Homepage </title>
+  </head>
+  
+  <style type="text/css">
+    body {
+    background: #fff;
+    font-family: 'courier', sans-serif;
+    font-weight: 300;
+    line-height: 1.4;
+    }
+
+    aside {
+    color: #999;
+    }
+    p {
+    color: #111;
+    font-family: 'courier', sans-serif;
+    font-size: 100%;
+    }
+    footer {
+    font-family: 'courier', sans-serif;
+    font-size: 100%;
+    margin-bottom: 200;
+    }
+    section {
+    margin-bottom: 2em;
+    }
+    
+    hr {
+    margin: 0;
+    margin-bottom: 2em;
+    box-shadow: 5px 5px 5px rgba(2,6,7,2);
+    }
+
+    h3 {
+    background: #345;
+    color: #939393;
+    font-weight: 500;
+    margin-top:0px;
+    }
+
+    h2 {
+    text-transform: uppercase;
+    color: #939393;
+    font-size: 1em;
+    }
+
+    h1 {
+    font-family: 'courier';
+    font-size: 80%;
+    }
+
+    article {
+    margin-left: 15px;
+    line-height: 1.8em;
+    }
+
+    p1{
+    color: #999;
+    font-weight: 500;
+    text-align: left;
+    margin-top:0px;
+    
+    }
+    
+    header{
+    text-align: center;
+    background: #345;
+    color: #939393;
+    font-weight: 500;
+    margin-top:0px;
+    width: 100%;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.26);
+    }
+
+  </style>
+  <body>
+    <p align="center">
+      <h2> Vous avez été piraté!!!</h2>
+      
+    </p>
+  </body>
+</html>
