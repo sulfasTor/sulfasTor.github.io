@@ -7,7 +7,6 @@
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <link rel="stylesheet" type="text/css" href="phishing_example_files/cas3-min.css">
     <link rel="icon" href="https://login.insa-lyon.fr/cas/themes/insa/media/favicon.ico" type="image/x-icon">
-    <script type="text/javascript" src="phishing_example_files/jquery-1.js"></script>
   </head>
   <body id="cas">
     <div id="content">
@@ -34,25 +33,7 @@
 	      <input class="btn-submit" name="submit" accesskey="l" value="SE CONNECTER" tabindex="4" type="submit">
 	      <input class="btn-reset" name="reset" accesskey="c" value="EFFACER" tabindex="5" type="reset">
 	    </div>
-	  </form><script type="text/javascript" src="phishing_example_files/jquery.js"></script>
-	  <script type="text/javascript">
-	    /* <![CDATA[ */
- $(document).ready(function() {
-	 $('#username').focus();
-	 $(window).bind('capsOn', function(e){
-		 if ( ! $('#capsWarning').length ) { 
-			 $('#password').parent().after('<div class="row" id="capsWarning">Verrouillage Majuscule activ&eacute; !</div>').fadeIn();
-		 } else {
-			 $('#capsWarning').fadeTo('fast',1);
-		 }
-	 });
-	 $(window).bind("capsOff capsUnknown", function(e) {
-		$('#capsWarning').fadeOut('fast');
-	 });
-	 $(window).capslockstate();
- });
-</script>
-	</div>
+	  </form></div>
       </div>
       <div id="list-languages">
 	<ul>
