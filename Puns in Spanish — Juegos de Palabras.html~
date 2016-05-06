@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html><head>
+  <title>Puns in Spanish — Juegos de Palabras</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <link media="all" href="Puns%20in%20Spanish%20%E2%80%94%20Juegos%20de%20Palabras_files/stallman.css" type="text/css" rel="stylesheet">
+  <link rel="icon" href="https://www.stallman.org/common/rms.png">
+</head>
+
+<body>
+<h1>Richard Stallman's personal site.</h1>
+<h2><a href="https://www.stallman.org/">https://stallman.org</a></h2>
+<p>
+For current political commentary, see
+the <a href="https://www.stallman.org/archives/current.html">daily
+political notes</a>.
+</p>
+<p>
+<a href="https://www.stallman.org/biographies.html#serious">RMS' Bio</a> |
+<a href="http://gnu.org/">The GNU Project</a>
+</p>
+<p>
+  <script>
+    dark_theme = false;
+    function toggle_dark_theme() {
+        dark_theme = !dark_theme;
+
+        links = document.getElementsByTagName('a');
+
+        if(dark_theme) {
+            document.body.className = "dark";
+            for(i = 0; i < links.length; i ++) {
+	        links[i].className = "dark";
+	    }
+	} else {
+	    document.body.className = "light";
+	    for(i = 0; i < links.length; i ++) {
+	        links[i].className = "light";
+	    }
+	}
+    }
+  </script>
+  <a href="#" onclick="toggle_dark_theme()">Toggle Dark Theme</a>
+</p>
+
+<hr>
+
+
+<p id="jaguar">
+Cuando el jaguar muerde, no espuma.
+</p>
+
+<p>
+Los juegos de palabras en castellano que he inventado.  (Hablo con el
+acento mexicano, es el más apto para los juegos de palabras.)
+</p>
+
+<blockquote>
+Véanse también las
+parodias, <a href="https://www.stallman.org/guantanamero.ogg">Guantanamero</a> y <a href="https://www.stallman.org/alma-llenera.ogg">Alma Llenera</a>.
+</blockquote>
+
+<p>
+<a href="https://www.stallman.org/images/interpelar.png"><img src="Puns%20in%20Spanish%20%E2%80%94%20Juegos%20de%20Palabras_files/interpelar-small.png" alt="Tira comica, Interpelar"></a>
+
+<br>
+<a href="https://www.stallman.org/#ruleta-espanola">Tira comica, La Ruleta Española.</a>
+<br>
+
+<a href="https://www.stallman.org/images/potosi.png"><img src="Puns%20in%20Spanish%20%E2%80%94%20Juegos%20de%20Palabras_files/potosi-small.png" alt="Tira comica, Potosí"></a>
+
+<a href="https://www.stallman.org/images/embraer.png"><img src="Puns%20in%20Spanish%20%E2%80%94%20Juegos%20de%20Palabras_files/embraer-small.png" alt="Tira comica, Embraer"></a>
+</p>
+
+<p>
+A ver también las fotos de mi escultura efímera,
+<a href="https://www.stallman.org/photos/hacks/de-lirio">"De-lirio"</a>.
+</p>
+
+<p>
+De La Rioja, por tanto vino que hay, sale el Río Ebrio.
+</p>
+
+<p>
+Han inventado anteojos especiales para dormir.<br>
+Se llaman somnolentes.
+</p>
+
+<p>
+En Cuba un percusionista puede tocar los tambores congas o los
+tambores singas.
+</p>
+
+<p>
+¿Si ves dos esteros, es estéreovisión¿
+</p>
+
+<p>
+No se debe comer el maní; primero te vuelves maníaco,
+luego te encuentras maníatado en el maní-comí-yo.
+</p>
+
+<p>
+La llamada es el plato típico andino, con carne de llama.
+</p>
+
+<p>
+Fui a una pastelería y les pedí regalarme una dona,
+pero dijeron que no hacen donaciones.  Sin embargo,
+los restaurantes del Perú ofrecen a sus clientes su cuy dado.
+</p>
+
+<p>
+Alumno: ¿Por qué se llamó Cristóbal
+Colón?  ¿Porque fue el primer colono?<br>
+Profesor: No, es porque cagó sobre las Américas.
+</p>
+
+<p>
+Una vez los paramilitares secuestraron a una madre superiora; fue una
+gran sor presa.
+</p>
+
+<p>
+La cria del pelícano, ¿es una película?
+</p>
+
+<p>
+¿Es que los almohades se acostaban con almohadas?
+</p>
+
+<p>
+Si se te cayera todo el cabello…sería un calvario.
+</p>
+
+<p>
+Ansiedad: la preocupación de hacer que el código C cumpla
+con el estandar ANSI.
+</p>
+
+<p>
+Tengo tanto estrés que casi es cuatro.
+</p>
+
+<p>
+Una mujer dice: me ama, pero nunca me ve como realmente soy.<br>
+Otra contesta: por eso se llama un no-vio.
+</p>
+
+<p>
+El Señor Gates finge ser filántropo, pero es más
+egoista que un yoyó.
+</p>
+
+<p>
+Topografía: hacer un mapa de los túneles del jardín.
+</p>
+
+<p>
+Che Guevara volvió a Argentina desde Cuba, y deseando moverse
+por la ciudad, preguntó ¿Dónde puedo coger la
+guagua?  Entonces lo arrestaron.
+</p>
+<p>
+¿Por qué el jugo de mora?  Porque no es pera.
+</p>
+<p>
+¿Por qué los naranjos no tienen orden?  Porque crecen al
+azahar.
+</p>
+<p>
+No me gusta mucho la cantante B11.  Estoy esperando la llegada de la
+próxima, la B12.
+</p>
+<p>
+Cuando me hablaban de la idea de hacer amor con Catherine Zeta-Jones,
+dije "Hago <a href="https://www.stallman.org/articles/texas.html">amor con las plantas</a>,
+pero no con las setas."
+</p>
+<p>
+Para usar los sanitarios en México, una chica me pidió un peso.
+Le contesté, ¿Un beso?
+</p>
+<p>
+¿Por qué es el plátano la comida de los monjes que
+hacen votos de
+pobreza?  Porque dicen, ¡Plata, no!
+</p>
+<p>
+Cuando viajo, a veces me preguntan si estoy de vacaciones.
+Contesto, ¿Para qué querría ser una vaca?
+</p>
+<p>
+Un hotel muy desagradable es una posadilla.
+</p>
+<p>
+En Buenos Aires hay un hipódromo, pero cuando pasé
+por allí, no tenía hipos.
+</p>
+<p>
+Por la calle me encontré con un desastre.  Lo reconocí como un
+desastre cuando él intentó descoser mi ropa.
+</p>
+<p>
+El odio es un hijo de disputa.
+</p>
+<p>
+La Alhambra es bella, pero vieja y obsoleta.  Ahora piensan
+reemplazarla por una red inalhambrica.
+</p>
+<p>
+¿Qué dijo un ladrón de pescado al
+otro?  ¡Róbalo!
+</p>
+<p>
+O eres utopista, o eres autopista.
+</p>
+<p>
+Gracias, pero no quiero el pancito.  Ya tengo una panzota.
+</p>
+<p>
+¿Cómo separar a un militar de su ejército?  Con
+un desoldador.
+</p>
+<p>
+Para graduar de la universidad, algunos estudiantes tienen que
+presentar sustentaciones.  Evidentemente los demás no son
+sospechados de tener tentaciones.
+</p>
+<p>
+¿Qué carrera académica te prepararía
+para contar chistes?  Bromatología.
+</p>
+<p>
+Cada agosto, los homosexuales de España organizan
+su Festival de Ver Ano.  (Basado en una idea de Tania Leal.)
+</p>
+<p>
+¿Cuál es la diferencia entre el cura, la cura,
+y lo cura?
+</p>
+<p>
+¿Dónde se vende lavanda?  En la lavandería.
+</p>
+<p>
+¿Dónde se venden tetas?  En la tetería.
+</p>
+<p>
+¿Dónde se venden almas?  En el almacén.
+(Gracias a Euclides Mance.)
+</p>
+<p>
+¿Por qué se llama un casino?  Porque casi no tienes
+la posibilidad de ganar.
+</p>
+<p>
+Siendo ateo practicante, para despedirme digo "A ningún dios."
+Pero al final de una entrevista de prensa, digo "Hasta la revista."
+</p>
+<p>
+En Ecuador, una aerolínea lleva el nombre de Icaro, no buen
+augurio para un vuelo seguro.  Escriben el nombre sin tilde.  Al
+aterrizar dicen, "Gracias por haber elegido este vuelo peligroso
+Icaro".
+</p>
+<p>
+Otra aerolínea se llama Taca.  Quien rehusa viajar
+con Taca, se des-taca.
+</p>
+<p>
+Muestro un juego de llaves y digo "Llaves".  Luego lo escondo
+y digo, "Ya no ves."
+</p>
+<p>
+Si los baristas trabajan en el bar, entonces ¿los maristas
+trabajan en el mar?
+</p>
+<p>
+En un paseo por los montes de Colombia, un amigo indicó un mineral y
+dijo: "Es azufre".  Le contesté, "¡Pobrecita!  ¿Por qué sufre?"
+</p>
+<p>
+En Colombia, una borracha se llama una ama-pola.
+</p>
+<p>
+En Pasto, se dice que si vuelves a Las Lajas, te relajas.
+</p>
+<p>
+¿Cómo se llama una ruana estropeada?
+Una ruina.
+</p>
+<p>
+¿Quién introdujo la concina budista a Colombia?
+Mil-arepas.
+</p>
+<p>
+En México, quien hace bromas pesadas es un comediantre.
+</p>
+<p>
+En México, si quieres un préstamo para
+cenar, vas a Bancomer, pero si es para plátanos
+vas a Bananamex.
+</p>
+
+<p>
+Cuando fui a Chile, me sugerieron ir a Copiapó,
+pero dije, prefiero Copiamás.  No fui a Antofagasta,
+entonces no me gastó.  Pasé cerca de Chuquicamata,
+pero no me mató.  Por fin paré en Atacama,
+donde con tanto viento hasta los colchones vuelan.<br>
+En el museo vi una exhibición sobre la industria del
+nitrato — que ni trato de comprender.  También presentaba
+la pulpería; pero, por la competencia de
+los flamencos, ya no hay pulpos en el desierto.
+</p>
+<p>
+El ex-Presidente Piñera de Chile es oriundo de Llanquihue.
+Por eso hace todo “the Yankee way”.
+</p>
+
+
+
+</body></html>

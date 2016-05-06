@@ -125,8 +125,8 @@
       <nav>
 	<ul>
 	  <li><a href="index.html">Home</a></li>
-	  <li id="selected"><a href="index.html">About</a></li>
-	  <li><a href="https://www.stallman.org/comics.html">Jokes</a></li>
+	  <li id="selected"><a href="about.html">About</a></li>
+	  <li><a href="jokes.html">Jokes</a></li>
 	  <li><a href="index.html">Curriculum vitae</a></li>
 	  <li><a href="zhongguo_poems.html">Chinese Poems</a></li>
 	</ul>
@@ -143,94 +143,93 @@
       <br>..&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  .linux &nbsp; &nbsp; &nbsp;   .proficiency
       <br>.innovation &nbsp; &nbsp; .GNU &nbsp; &nbsp; &nbsp; &nbsp;  Public
       <br>.imagination &nbsp;  .games &nbsp; &nbsp;  &nbsp; README.md
-      
-
       <br><br><br><br><br><br><br><br><br><br>
     </h1>
+
     <hr>
     <h2>Random code</h2><br>
-   <!-- HTML generated using hilite.me --><div style="background: #f8f8f8; overflow:auto;width:auto; border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><table><tr><td><pre style="margin: 0; line-height: 125%"> 1
- 2
- 3
- 4
- 5
- 6
- 7
- 8
- 9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-20
-21
-22
-23
-24
-25
-26
-27
-28
-29
-30
-31
-32
-33
-34
-35
-36
-37
-38
-39
-40</pre></td><td><pre style="margin: 0; line-height: 125%"><span style="color: #008800">#include &lt;stdio.h&gt;</span>
+    <!-- HTML generated using hilite.me --><div style="background: #f8f8f8; overflow:auto;width:auto; border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><table><tr><td><pre style="margin: 0; line-height: 125%"> 1
+	      2
+	      3
+	      4
+	      5
+	      6
+	      7
+	      8
+	      9
+	      10
+	      11
+	      12
+	      13
+	      14
+	      15
+	      16
+	      17
+	      18
+	      19
+	      20
+	      21
+	      22
+	      23
+	      24
+	      25
+	      26
+	      27
+	      28
+	      29
+	      30
+	      31
+	      32
+	      33
+	      34
+	      35
+	      36
+	      37
+	      38
+	      39
+	      40</pre></td><td><pre style="margin: 0; line-height: 125%"><span style="color: #008800">#include &lt;stdio.h&gt;</span>
 
-<span style="color: #008800">#define N   10</span>
+	      <span style="color: #008800">#define N   10</span>
 
-<span style="color: #00BB00; font-weight: bold">int</span> <span style="color: #00A000">main</span>()
-{
+	      <span style="color: #00BB00; font-weight: bold">int</span> <span style="color: #00A000">main</span>()
+	      {
 
-	<span style="color: #00BB00; font-weight: bold">int</span> numbers[N];
-	<span style="color: #00BB00; font-weight: bold">int</span> i;
+	      <span style="color: #00BB00; font-weight: bold">int</span> numbers[N];
+	      <span style="color: #00BB00; font-weight: bold">int</span> i;
 
-	printf(<span style="color: #BB4444">&quot;%s</span><span style="color: #BB6622; font-weight: bold">\n</span><span style="color: #BB4444">&quot;</span>,<span style="color: #BB4444">&quot;Give me 10 numbers&quot;</span>);
+	      printf(<span style="color: #BB4444">&quot;%s</span><span style="color: #BB6622; font-weight: bold">\n</span><span style="color: #BB4444">&quot;</span>,<span style="color: #BB4444">&quot;Give me 10 numbers&quot;</span>);
 
-	<span style="color: #AA22FF; font-weight: bold">for</span> (i <span style="color: #666666">=</span> <span style="color: #666666">0</span>; i <span style="color: #666666">&lt;</span> N; i<span style="color: #666666">++</span>)
-	{
-		printf(<span style="color: #BB4444">&quot;Give number %i : &quot;</span>, i);
-		scanf (<span style="color: #BB4444">&quot;%d&quot;</span>, <span style="color: #666666">&amp;</span>numbers[i]);
-	}
+	      <span style="color: #AA22FF; font-weight: bold">for</span> (i <span style="color: #666666">=</span> <span style="color: #666666">0</span>; i <span style="color: #666666">&lt;</span> N; i<span style="color: #666666">++</span>)
+	      {
+	      printf(<span style="color: #BB4444">&quot;Give number %i : &quot;</span>, i);
+	      scanf (<span style="color: #BB4444">&quot;%d&quot;</span>, <span style="color: #666666">&amp;</span>numbers[i]);
+	      }
 
-	<span style="color: #008800; font-style: italic">//The sorting</span>
-	<span style="color: #00BB00; font-weight: bold">int</span> j;
-	<span style="color: #00BB00; font-weight: bold">int</span> c;
-	<span style="color: #00BB00; font-weight: bold">int</span> temp;
-	<span style="color: #AA22FF; font-weight: bold">for</span> (c <span style="color: #666666">=</span> <span style="color: #666666">0</span> ; c <span style="color: #666666">&lt;</span> N<span style="color: #666666">-1</span>; c<span style="color: #666666">++</span>)
-	{
-		<span style="color: #AA22FF; font-weight: bold">for</span>(j<span style="color: #666666">=0</span>; j <span style="color: #666666">&lt;</span> N<span style="color: #666666">-1</span>; j<span style="color: #666666">++</span>)
-		{
-			<span style="color: #AA22FF; font-weight: bold">if</span>(numbers[j]<span style="color: #666666">&gt;</span>numbers[j<span style="color: #666666">+1</span>]){
-				temp<span style="color: #666666">=</span>numbers[j];
-				numbers[j]<span style="color: #666666">=</span>numbers[j<span style="color: #666666">+1</span>];
-				numbers[j<span style="color: #666666">+1</span>]<span style="color: #666666">=</span>temp;
-			}
-		}
-	}
+	      <span style="color: #008800; font-style: italic">//The sorting</span>
+	      <span style="color: #00BB00; font-weight: bold">int</span> j;
+	      <span style="color: #00BB00; font-weight: bold">int</span> c;
+	      <span style="color: #00BB00; font-weight: bold">int</span> temp;
+	      <span style="color: #AA22FF; font-weight: bold">for</span> (c <span style="color: #666666">=</span> <span style="color: #666666">0</span> ; c <span style="color: #666666">&lt;</span> N<span style="color: #666666">-1</span>; c<span style="color: #666666">++</span>)
+	      {
+	      <span style="color: #AA22FF; font-weight: bold">for</span>(j<span style="color: #666666">=0</span>; j <span style="color: #666666">&lt;</span> N<span style="color: #666666">-1</span>; j<span style="color: #666666">++</span>)
+	      {
+	      <span style="color: #AA22FF; font-weight: bold">if</span>(numbers[j]<span style="color: #666666">&gt;</span>numbers[j<span style="color: #666666">+1</span>]){
+	      temp<span style="color: #666666">=</span>numbers[j];
+	      numbers[j]<span style="color: #666666">=</span>numbers[j<span style="color: #666666">+1</span>];
+	      numbers[j<span style="color: #666666">+1</span>]<span style="color: #666666">=</span>temp;
+	      }
+	      }
+	      }
 
-	<span style="color: #AA22FF; font-weight: bold">for</span>(j<span style="color: #666666">=0</span>; j <span style="color: #666666">&lt;</span> N; j<span style="color: #666666">++</span>)
-	{
-		printf(<span style="color: #BB4444">&quot;%d &quot;</span>,numbers[j]);
-	}
-	printf(<span style="color: #BB4444">&quot;%s</span><span style="color: #BB6622; font-weight: bold">\n</span><span style="color: #BB4444">&quot;</span>,<span style="color: #BB4444">&quot;&quot;</span>);
-}
-</pre></td></tr></table></div>
+	      <span style="color: #AA22FF; font-weight: bold">for</span>(j<span style="color: #666666">=0</span>; j <span style="color: #666666">&lt;</span> N; j<span style="color: #666666">++</span>)
+	      {
+	      printf(<span style="color: #BB4444">&quot;%d &quot;</span>,numbers[j]);
+	      }
+	      printf(<span style="color: #BB4444">&quot;%s</span><span style="color: #BB6622; font-weight: bold">\n</span><span style="color: #BB4444">&quot;</span>,<span style="color: #BB4444">&quot;&quot;</span>);
+	      }
+    </pre></td></tr></table></div>
 
-    
+
 
     <br><hr><footer>
       <div align="center" id="copyright-notice">
