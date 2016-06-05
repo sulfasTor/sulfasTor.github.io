@@ -71,8 +71,8 @@ One step closer to learn something interesting you are...
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <title>Modélisation d'une corde de violon</title>
     
-    <meta name="description" content="impress.js is a presentation tool based on the power of CSS3 transforms and transitions in modern browsers and inspired by the idea behind prezi.com." />
-    <meta name="author" content="Bartek Szopka" />
+    <meta name="description" content="Slide pour la soutenance de projet de P2i." />
+    <meta name="author" content="sulfasTor" />
 
     <link href="fonts/Typewriter/cmun-typewriter.css" rel="stylesheet" />
 
@@ -91,7 +91,7 @@ One step closer to learn something interesting you are...
     When creating your own presentation get rid of this file. Start from scratch, it's fun!
     
     -->
-    <link href="impress-demo.css" rel="stylesheet" />
+    <link href="css/impress-demo.css" rel="stylesheet" />
     
     <link rel="shortcut icon" href="favicon.png" />
     <link rel="apple-touch-icon" href="apple-touch-icon.png" />
@@ -167,7 +167,7 @@ One step closer to learn something interesting you are...
       -->
       <div class="step slide" style="text-align:center;height:700px;" data-x="-1000" data-y="-1500">
         <q style="font-size:200%;">Modélisation de la vibration d'une corde de violon</q><br>
-	<img src="intro.png" width="100" height="200" alt="intro">
+	<img src="img/intro.png" width="100" height="200" alt="intro">
 	<br><br><p style="color:gray;">Moises Torres</p>
       </div>
 
@@ -190,7 +190,7 @@ One step closer to learn something interesting you are...
 	<h1>Le violon</h1>
 	<br><p>
 	  <br>
-	  <img src="violin2.png" width="700" height="500" style="margin-left:80px" alt="violon">
+	  <img src="img/violin2.png" width="700" height="500" style="margin-left:80px" alt="violon">
       </div>
 
       <div class="step slide" data-x="1000" data-y="-1500">
@@ -201,19 +201,19 @@ One step closer to learn something interesting you are...
       
       <div class="step slide" align="center" data-x="2000" data-y="-1500">
 	<h1>Le processus de modélisation numérique</h1>
-	<img style="margin-left:-15px;" src="processmn.png" alt="processu modelisation numerique">
+	<img style="margin-left:-15px;" src="img/processmn.png" alt="processu modelisation numerique">
       </div>
 
       <div class="step slide" data-x="3000" data-y="-1500">
 	<h1 align="center">Simplification</h1>
 	<p><br>
 	<p>Étape 1</p>
-	<img src="etape1.png" alt="etape1" width="300" height="200" style="float:right;">
+	<img src="img/etape1.png" alt="etape1" width="300" height="200" style="float:right;">
 	Remplacer la corde par une seule masselotte attachée par des ressorts à un support fixe et sur laquelle l'archet vient frotter.
 	<br><br>
 	<p>Étape 2</p>
 	Remplacer la corde par une série de masselottes reliées par des ressorts et en ne faisant frotter qu'une masselotte.<br><br>
-	<img src="etape2.png" alt="etape2" width="800" height="100">
+	<img src="img/etape2.png" alt="etape2" width="800" height="100">
 	</p>
       </div>
 
@@ -222,7 +222,7 @@ One step closer to learn something interesting you are...
 	<br>
 	<p>Modèle continu</p>
 	<p style="font-size:90%; color:gray;">En considérant la loi de frottement de Coulomb on applique le Principe Fondamental de la Dynamique à la masselotte.</p>
-	<p align="center"><img src="meq.png" alt="mise en equation"></p>
+	<p align="center"><img src="img/meq.png" alt="mise en equation"></p>
 	<p style="font-size:70%; color:gray;">
 	  Ve: Vitesse de glissement de la mèche de l'archet.<br>
 	  S: Force d'appui de la mèche de l'archet.<br>
@@ -243,7 +243,7 @@ One step closer to learn something interesting you are...
 	  - Schéma implicite d'Euler (plus de stabilité).<br>
 	  - Méthode des différences finies.
 	  <br>
-	<p align="center"><img src="de.png" alt="discretisation equations"></p><br>
+	<p align="center"><img src="img/de.png" alt="discretisation equations"></p><br>
 	Utilisation de Matlab (logiciel privateur) et GNU Octave (logiciel libre) pour la programmation.
 	</p>
       </div>
@@ -256,7 +256,7 @@ One step closer to learn something interesting you are...
 	  - La force longitudinale est négligée car très faible.<br>
 	  - La fréquence d'oscillation de la masselotte en contact avec l'archet est représentative de la corde.
 	</p>
-	<img src="etape2.png" alt="etape2" width="700" height="150">
+	<img src="img/etape2.png" alt="etape2" width="700" height="150">
 	<p>Problème mathématique simplifié (Exemple pour 5 masselottes)</p>
 	<img src="de2.png" alt="discretisation equation" style="float:right;" width="" height="">
 	<p style="color:gray; font-size:80%;">Le deuxième modèle contient la problématique du premier modèle.</p>
@@ -269,8 +269,8 @@ One step closer to learn something interesting you are...
 	  <br>m=0.5kg, S=0.3N, k=0.9 N/m,
 	  Ve=0.5 m/s.</p>
 	<p>
-	  <img src="phase.png" alt="phase" style="float:left;" width="350" heigh="350">
-	  <img src="rep_corde.png" alt="corde" style="float:right;" width="350" heigh="350"></p>
+	  <img src="img/phase.png" alt="phase" style="float:left;" width="350" heigh="350">
+	  <img src="img/rep_corde.png" alt="corde" style="float:right;" width="350" heigh="350"></p>
 
 	<div id="wrap"><div id="right-col">Représentation de la corde à trois moments.</div>
 	<div id="left-col">Diagramme de phase.<br> On remarque l'existence d'une solution
@@ -280,8 +280,8 @@ périodique limite.</div></div>
       
       <div class="step slide" data-x="8000" data-y="-1500">
 	<br><br>
-	<img src="spectre.png" alt="spectre" style="float:right;" width="350" heigh="350">
-        <p><img src="misc.png" alt="misc" style="float:left;" width="350" heigh="350"></p>
+	<img src="img/spectre.png" alt="spectre" style="float:right;" width="350" heigh="350">
+        <p><img src="img/misc.png" alt="misc" style="float:left;" width="350" heigh="350"></p>
 	<div id="wrap"><div id="right-col">Spectre de fréquences<br>La fréquence obtenue est très faible.</div>
 	  <div id="left-col">(Position, Temps), (Vitesse, Temps),(Force, Temps)<br>On remarque des oscillations amorties.</div></div><br>
 	
@@ -290,7 +290,7 @@ périodique limite.</div></div>
       <div class="step slide" data-x="9000" data-y="-1500">
 	<h1 align="center">Animation</h1><br>
 	<p align="center"><video controls loop>
-	    <source src="motion.ogg" type="video/ogg">
+	    <source src="img/motion.ogg" type="video/ogg">
 	      Your browser does not support the video tag.
 	</video></p>
       </div>
@@ -361,7 +361,7 @@ périodique limite.</div></div>
       Of course you can wrap it in any kind of "DOM ready" event, but I was too lazy to do so ;)
       
       -->
-      <script src="impress.js"></script>
+      <script src="js/impress.js"></script>
       <script>impress().init();</script>
 
       <!--
