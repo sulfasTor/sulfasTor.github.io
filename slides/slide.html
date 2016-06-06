@@ -166,7 +166,7 @@ One step closer to learn something interesting you are...
       It will not be rotated or scaled.
       
       -->
-      <div class="step slide" style="text-align:center;height:700px;" data-x="-1000" data-y="-1500">
+      <div class="step slide" style="text-align:center;height:700px;" data-x="3000" data-y="-400" data-z="2000" data-rotate-y="90">
         <q style="font-size:200%;">Modélisation de la vibration d'une corde de violon</q><br>
 	<img src="img/intro.png" width="100" height="200" alt="intro">
 	<br><br><p style="color:gray;">Moises Torres</p>
@@ -187,14 +187,15 @@ One step closer to learn something interesting you are...
       Using classic `id`-based links like `#step-2` makes these links usable also in fallback mode.
       
       -->
-      <div class="slide step" align="center" data-x="0" data-y="-1500">
+      	
+      <div class="slide step" align="center" data-x="1000" data-y="100">
 	<h1>Le violon</h1>
 	<br><p>
 	  <br>
 	  <img src="img/violin2.png" width="700" height="500" style="margin-left:80px" alt="violon">
       </div>
 
-      <div class="step slide" data-x="1000" data-y="-1500">
+      <div class="step slide" data-x="1000" data-y="-1000">
 	<q>Problématique</q>
 	<br>
 	<p>Construire un modèle suffisamment simple pour être approché numériquement pour reproduire l'essentiel du son caractéristique du violon.</p>
@@ -205,7 +206,7 @@ One step closer to learn something interesting you are...
 	<img style="margin-left:-15px;" src="img/processmn.png" alt="processu modelisation numerique">
       </div>
 
-      <div class="step slide" data-x="3000" data-y="-1500">
+      <div class="step slide" data-x="3000" data-y="-2000">
 	<h1 align="center">Simplification</h1>
 	<p><br>
 	<p>Étape 1</p>
@@ -235,21 +236,7 @@ One step closer to learn something interesting you are...
 	  * Le coefficient de frottement est une fonction de la vitesse de glissement.</p>
       </div>
 
-
-      <div class="step slide" data-x="5000" data-y="-1500">
-	<h1 align="center">Passage en modèle numérique</h1><br>
-	<p>Discrétisation des équations</p>
-	Méthodes numériques:<br>
-	<p style="color:gray;">
-	  - Schéma implicite d'Euler (plus de stabilité).<br>
-	  - Méthode des différences finies.
-	  <br>
-	<p align="center"><img src="img/de.png" alt="discretisation equations"></p><br>
-	Utilisation de Matlab (logiciel privateur) et GNU Octave (logiciel libre) pour la programmation.
-	</p>
-      </div>
-
-      <div class="step slide" data-x="6000" data-y="-1500">
+      <div class="step slide" data-x="5000" data-y="-1000">
 	<h1>Deuxième modèle</h1>
 	<br>
 	<p>Hypothèses simplificatrices</p>
@@ -263,12 +250,26 @@ One step closer to learn something interesting you are...
 	<p style="color:gray; font-size:80%;">Le deuxième modèle contient la problématique du premier modèle.</p>
       </div>
 
-      <div class="step slide" data-x="7000" data-y="-1500">
+      <div class="step slide" data-x="5000" data-y="50">
+	<h1 align="center">Passage en modèle numérique</h1><br>
+	<p>Discrétisation des équations</p>
+	Méthodes numériques:<br>
+	<p style="color:gray;">
+	  - Schéma implicite d'Euler (plus de stabilité).<br>
+	  - Méthode des différences finies.
+	  <br>
+	<p align="center"><img src="img/de.png" alt="discretisation equations"></p><br>
+	Utilisation de Matlab (logiciel privateur) et GNU Octave (logiciel libre) pour la programmation.
+	</p>
+      </div>
+	    
+
+      <div class="step slide" data-x="4000" data-y="700">
 	<h1 align="center">Algorithme de calcul</h1>
 	<p align="center"><img src="img/algo.png" alt="algorithme" width="500" height="600"></p>
       </div>
       
-      <div class="step slide" data-x="8000" data-y="-1500">
+      <div class="step slide" data-x="3000" data-y="1200">
 	<h1 align="center">Résultats</h1><br>
 	<p align="center">Graphiques<br></p><br>
 	<p style="font-size:70%;color:gray;">Paramètres: L=1m, Nbr. Masselottes=70, position archet=35
@@ -284,7 +285,7 @@ One step closer to learn something interesting you are...
 
       </div>
       
-      <div class="step slide" data-x="9000" data-y="-1500">
+      <div class="step slide" data-x="2000" data-y="700">
 	<br><br>
 	<img src="img/spectre.png" alt="spectre" style="float:right;" width="350" heigh="350">
         <p><img src="img/misc.png" alt="misc" style="float:left;" width="350" heigh="350"></p>
@@ -293,7 +294,7 @@ One step closer to learn something interesting you are...
 	
       </div>
 
-      <div class="step slide" data-x="10000" data-y="-1500">
+      <div class="step slide" data-x="0" data-y="900">
 	<h1 align="center">Animation</h1><br>
 	<p align="center"><video controls loop>
 	    <source src="img/motion.ogg" type="video/ogg">
@@ -301,9 +302,9 @@ One step closer to learn something interesting you are...
 	</video></p>
       </div>
       
-      <div class="step slide" data-x="11000" data-y="-1500">
+      <div class="step slide" data-x="0" data-y="-1800">
 	<h1 align="center">Conclusion</h1><br><br>
-	<p style="font-size:80%;">Malheureusement nos modèles sont loin d'être parfaits.<br>
+	<p style="font-size:80%;color:gray;">Malheureusement nos modèles sont loin d'être parfaits.<br>
 	  Cet écart est dû principalemnt à nos hypothèses simplificatrices et méthodes numériques utilisées:<br><br>
 	  <div style="font-size:70%;">
 	    <li>Action perpendiculaire de archet sur la corde (l'angle peut influencer).</li>
@@ -315,7 +316,7 @@ One step closer to learn something interesting you are...
       </div>
 
       <!-- =========== Overview================================================== -->
-      <div id="overview" class="step" data-x="5000" data-y="-1500" data-scale="10">
+      <div id="overview" class="step" data-x="3000" data-y="-400" data-scale="10">
 
       </div>
 
