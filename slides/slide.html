@@ -167,9 +167,11 @@ One step closer to learn something interesting you are...
       
       -->
       <div class="step slide" style="text-align:center;height:700px;" data-x="3000" data-y="-400" data-z="2000" data-rotate-y="90">
-        <q style="font-size:200%;">Modélisation de la vibration d'une corde de violon</q><br>
-	<img src="img/intro.png" width="100" height="200" alt="intro">
-	<br><br><p style="color:gray;">Moises Torres</p>
+	<p style="color:gray;font-size:80%;">P2I7 - Modélisation Numérique pour l'ingénieur</p>
+        <q style="font-size:200%;"><span style="font-size:80%;">Projet 20 - </span>Modélisation de la vibration d'une corde de violon</q><br>
+	<img src="img/intro.png" width="100" height="190" alt="intro"><br>
+	<span style="float:left;"><b>Moises Torres</b></span>
+	<img src="img/insa.png" style="float:right;margin-right:-50px;" alt="insa">
       </div>
 
       <!--
@@ -211,7 +213,7 @@ One step closer to learn something interesting you are...
 	<p><br>
 	<p>Étape 1</p>
 	<img src="img/etape1.png" alt="etape1" width="300" height="200" style="float:right;">
-	Remplacer la corde par une seule masselotte attachée par des ressorts à un support fixe et sur laquelle l'archet vient frotter.
+	Etudier le mouvement d'une masselotte attachée par des ressorts à un support fixe et sur laquelle l'archet vient frotter.
 	<br><br>
 	<p>Étape 2</p>
 	Remplacer la corde par une série de masselottes reliées par des ressorts et en ne faisant frotter qu'une masselotte.<br><br>
@@ -230,35 +232,33 @@ One step closer to learn something interesting you are...
 	  S: Force d'appui de la mèche de l'archet.<br>
 	  k: raideur de l'archet.<br>
 	  m: masse de la masselotte.<br>
-	  mu: Coefficient de frottement.
+	  mu: Coefficient de frottement (Une fonction de la vitesse de glissement).
 	</p>
 	<p style="font-size:70%;">* Glissement et Adhérence, les deux phases du phénomène de "Stick and Slip".<br>
-	  * Le coefficient de frottement est une fonction de la vitesse de glissement.</p>
       </div>
 
       <div class="step slide" data-x="5000" data-y="-1000">
-	<h1>Deuxième modèle</h1>
+	<h1>Deuxième modèle</h1><br>
+	<h2 style="color:gray;font-size:80%;">La masselotte en contact avec l'archet est attachée à des masselottes.</h2>
 	<br>
 	<p>Hypothèses simplificatrices</p>
 	<p style="color:gray; font-size:80%;">
-	  - La force longitudinale est négligée car très faible.<br>
-	  - La fréquence d'oscillation de la masselotte en contact avec l'archet est représentative de la corde.
+	  - Force longitudinale négligée car très faible.<br>
+	  - Fréquence de la corde correspond à la fréquence d'oscillation de la masselotte. 
 	</p>
-	<img src="img/etape2.png" alt="etape2" width="700" height="150">
-	<p>Problème mathématique simplifié (Exemple pour 5 masselottes)</p>
-	<img src="img/de2.png" alt="discretisation equation" style="float:right;" width="" height="">
-	<p style="color:gray; font-size:80%;">Le deuxième modèle contient la problématique du premier modèle.</p>
+	<img src="img/etape2a.png" alt="etape2" width="700" height="150">
+	<p>Problème mathématique en forme matriciel</p>
+	<img src="img/matrix.png" alt="probleme matriciel"  width="" height="">
       </div>
 
       <div class="step slide" data-x="5000" data-y="50">
-	<h1 align="center">Passage en modèle numérique</h1><br>
+	<q>Passage en modèle numérique</q><br>
 	<p>Discrétisation des équations</p>
 	Méthodes numériques:<br>
 	<p style="color:gray;">
 	  - Schéma implicite d'Euler (plus de stabilité).<br>
 	  - Méthode des différences finies.
-	  <br>
-	<p align="center"><img src="img/de.png" alt="discretisation equations"></p><br>
+	  <br><br>
 	Utilisation de Matlab (logiciel privateur) et GNU Octave (logiciel libre) pour la programmation.
 	</p>
       </div>
@@ -280,17 +280,18 @@ One step closer to learn something interesting you are...
 	  <img src="img/rep_corde.png" alt="corde" style="float:right;" width="350" heigh="350"></p>
 
 	<div id="wrap"><div id="right-col">Représentation de la corde à trois moments.</div>
-	<div id="left-col">Diagramme de phase.<br> On remarque
-	l'existence d'une solution non-périodique.</div></div>
+	<div id="left-col">Diagramme de phase.</div></div>
 
       </div>
       
       <div class="step slide" data-x="2000" data-y="700">
-	<br><br>
-	<img src="img/spectre.png" alt="spectre" style="float:right;" width="350" heigh="350">
-        <p><img src="img/misc.png" alt="misc" style="float:left;" width="350" heigh="350"></p>
-	<div id="wrap"><div id="right-col">Spectre de fréquences<br>La fréquence obtenue est très faible.</div>
-	  <div id="left-col">(Position, Temps), (Vitesse, Temps),(Force, Temps)<br>On remarque des oscillations amorties.</div></div><br>
+	<p align="center">
+	  <img src="img/misc.png" alt="misc"  width="650" height="350">
+	<p style="float:right;color:gray;font-size:50%;"><br> En haut, position, vitesse et force en fonction du temps.
+	<br>On remarque la convergence de la solution.<br><br> A gauche, le spectre de fréquences.<br>La fréquence obtenue est très faible.</p>
+	  <img src="img/spectre.png" alt="spectre" style="float:left;"  width="350" height="290">
+	</p>
+
 	
       </div>
 
@@ -305,10 +306,10 @@ One step closer to learn something interesting you are...
       <div class="step slide" data-x="0" data-y="-1800">
 	<h1 align="center">Conclusion</h1><br><br>
 	<p style="font-size:80%;color:gray;">Malheureusement nos modèles sont loin d'être parfaits.<br>
-	  Cet écart est dû principalemnt à nos hypothèses simplificatrices et méthodes numériques utilisées:<br><br>
+	  Cet écart est dû principalement à des hypothèses simplificatrices et des méthodes numériques utilisées:<br><br>
 	  <div style="font-size:70%;">
-	    <li>Action perpendiculaire de archet sur la corde (l'angle peut influencer).</li>
-	    <li> Pris en compte des forces transversales (Les forces longitudinales pourrait influencer à long terme).</li>
+	    <li>Action perpendiculaire de l'archet sur la corde (l'angle peut influencer).</li>
+	    <li>Prise en compte des forces transversales (Les forces longitudinales pourrait influencer à long terme).</li>
 	    <li>La fréquence de la corde correspond à la fréquence de l'oscillation masselotte-archet. (Les oscillations de chaque masselotte jouent un rôle dans la fréquence de la corde).</li>
 	    <li>Schéma implicite. (D'autres schémas pourrait nous donner de meilleurs résultats).</li><br></p></div>
 </p>
