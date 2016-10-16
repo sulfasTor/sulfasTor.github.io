@@ -1,0 +1,143 @@
+body {
+    background: #fff;
+    font-family: 'courier', sans-serif;
+    font-weight: 300;
+    line-height: 1.4;
+}
+.maint1{
+    text-align:center;
+    margin-bottom: 150px;
+    margin-top: 150px;
+    font-size: 500%;
+    color: #939393;
+}
+.maint2{
+    text-align:center;
+    margin-bottom: 150px;
+    margin-top: 150px;
+    font-size: 250%;
+    color: #939393;
+}
+
+aside {
+    color: #999;
+}
+p {
+    color: #111;
+    font-family: 'courier', sans-serif;
+    font-size: 100%;
+    font-weight: normal
+}
+footer {
+    font-family: 'courier', sans-serif;
+    font-size: 100%;
+    margin-bottom: 200;
+}
+section {
+    margin-bottom: 2em;
+}
+
+hr {
+    margin: 0;
+    margin-bottom: 2em;
+    box-shadow: 5px 5px 5px rgba(2,6,7,2);
+}
+.console {
+    margin-top: 4em;
+    margin-bottom: 4em;
+    background: black;
+    color: #00FF00;
+    font-size:80%;
+    overflow:auto;
+    width:auto;
+    padding:.2em .6em;
+}
+h5{
+    color: red;
+    font-size: 2em;
+}
+.owned {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    text-align:center;
+    background: red;
+    text-transform: uppercase;
+    color: white;
+    font-size: 3em;
+    box-shadow: 8px 8px 8px red
+}
+
+h3 {
+    background: #345;
+    color: #939393;
+    font-weight: 500;
+    margin-top:0px;
+}
+
+h1 {
+    text-transform: uppercase;
+    color: #939393;
+    font-size: 2em;
+}
+
+h2 {
+    color: #939393;
+    font-family: 'courier';
+    font-size: 1em;
+}
+
+article {
+    margin-left: 15px;
+    line-height: 1.8em;
+}
+
+p1{
+    color: #999;
+    font-weight: 500;
+    text-align: left;
+    margin-top:0px;
+    
+}
+
+header{
+    text-align: center;
+    background: #345;
+    color: #939393;
+    font-weight: 500;
+    margin-top:0px;
+    width: 100%;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.26);
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    border: solid;
+    border-width: 1px 1px 0 1px;
+    margin: 0 5px 0 0;
+}
+
+#selected {
+    position: relative;
+    top: 1px;
+    background: white;
+}
+
+nav li a {
+    background: #345;
+    color: #939393;
+    padding: 0 10px;
+}
+
+#copyright-notice {
+    text-align: center;
+    font: courier;
+    clear: both;
+}
+

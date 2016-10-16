@@ -1,0 +1,8 @@
+title:sulfasTor website
+description:sulfasTor Website
+baseurl:"http://sulf.tk"
+url:"http://sulf.tk
+
+# Build settings
+markdown: kramdown
+theme: minima

@@ -1,0 +1,38 @@
+#news {
+    position: relative;
+}
+
+#news img {
+    position: absolute;
+    top: 2px;
+    right: 14px;
+}
+
+.feed-source {
+    display: none;
+}
+
+.feed-item {
+    background-color: lightsteelblue;
+    border: 2px solid lightgray;
+    margin: 20px 0px 20px 0px;
+    padding: 4px;
+}
+
+.feed-header {
+    background-color: skyblue;
+    width: 100%;
+    color: black;
+    font-weight: bold;
+}
+
+.feed-item-title {
+    display: inline-block;
+    width: 50%;
+}
+
+.feed-item-date {
+    display: inline-block;
+    text-align: right;
+    width: 50%;
+}
