@@ -47,7 +47,7 @@ function fetchFeed (feedSource, numberItems, attachmentQuery)
                     html += '<div class="feed-item">'
 			+ '<div class="feed-header">'
 			+ '<div class="feed-item-title">'
-			+ '<a href="' + item.link + '">'
+			+ '<a style = "text-decoration:none;color: #336699;" href="' + item.link + '">'
 			+ item.title
 			+ '</a>'
 			+ '</div>'

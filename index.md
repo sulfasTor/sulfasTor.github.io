@@ -40,12 +40,12 @@ news: [5, '#news-result']
       <hr>
 
       <section id="news">
-	<h1>News Feed</h1>
+	<h2>News Feed</h2>
 	<a href="/feed.xml">
 	  <img src="/images/rss-logo.png"
 	       title="RSS 2.0"
 	       alt="RSS 2.0"
 	       width="24" height="24" /></a>
 
-	<div id="news-result"/>
+	<div id="news-result" />
       </section>

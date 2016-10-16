@@ -10,9 +10,10 @@
 
     <!-- Metadata -->
     <meta charset="utf-8" />
+    <meta name="description" content="{{ page.description }}" />
+    <meta name="keywords" content="{{ page.tags }}" />
     <meta name="author" content="sulfasTor" />
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <meta  NAME="Description" CONTENT="Don't be mad. UPS is hiring you. You better don't enter here." />
     <meta name="robots" content="noindex,nofollow">
     <link rel="icon" type="image/png" href="/images/sulf.png" />
 
@@ -52,14 +53,6 @@
     </style>
 
     <!-- Metadata -->
-    <meta name="description" content="{{ page.description }}" />
-    <meta name="keywords" content="{{ page.tags }}" />
-
-    {% unless page.news == null %}
-    <script src="/scripts/feed2html.js"></script>
-    <script>fetchFeed ('/feed.xml', {{ page.news[0] }}, '{{ page.news[1] }}');</script>
-    <link rel="stylesheet" href="/styles/news-feed.css" />
-    {% endunless %}
 
   </head>
 
