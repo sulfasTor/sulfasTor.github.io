@@ -23,9 +23,8 @@
 	  title="sulfasTor homepage feed" href="/feed.xml" />
     <link rel="icon" type="image/x-icon" href="/images/sulf.png" />
     <link rel="stylesheet" href="/styles/main.css" />
-    <!--<link rel="stylesheet" href="/styles/navigation.css" />-->
 
-     {% unless page.news == null %}
+    {% unless page.news == null %}
     <script src="/scripts/jquery-1.6.4.min.js"></script>
     <script src="/scripts/jquery.jfeed.pack.js"></script>
     <script src="/scripts/feed2html.js"></script>
@@ -55,9 +54,6 @@
     <!-- Metadata -->
     <meta name="description" content="{{ page.description }}" />
     <meta name="keywords" content="{{ page.tags }}" />
-
-    <!-- External resources -->
-    <link rel="stylesheet" href="{{ page.base_local | append: site.baseurl | append: page.url | remove: '.html' | append: '.css'}}" />
 
     {% unless page.news == null %}
     <script src="/scripts/feed2html.js"></script>
@@ -104,6 +100,7 @@
 
       <div>
 	{{ content }}
+	
       </div>
 
       <hr> <footer>

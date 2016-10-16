@@ -4,7 +4,7 @@ description: Homepage of sulfasTor
 tags: homepage
 license: CC BY-ND 4.0
 layout: sulfastor-homepage
-news: [1, '#news-result']
+news: [5, '#news-result']
 ---
 <section id="content">
   <section>
@@ -47,5 +47,5 @@ news: [1, '#news-result']
 	       alt="RSS 2.0"
 	       width="24" height="24" /></a>
 
-	<div id="news-result" />
+	<div id="news-result"/>
       </section>

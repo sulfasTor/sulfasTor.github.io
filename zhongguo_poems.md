@@ -7,11 +7,10 @@ permalink: /zhongguo_poems/
 
 <div>
 <h1>浣溪沙 - Washing Sand in the Stream by Li yu</h1>
-    <div class="col-xs-3 col-sm-4">
+<div class="col-xs-3 col-sm-4">
     </div>
     <p align="center">
-      <img style="position:absolute; top:225px; right:800px; width:450px; height:300px" src="/images/liyu.jpg" alt="images of li yu">
-      <big style="font-size: 30px;">
+      <big style="font-size: 30px;;">
 	紅日已高三丈透，<br>
 	金爐次第添香獸，<br>
 	紅錦地衣隨步皺。<br>

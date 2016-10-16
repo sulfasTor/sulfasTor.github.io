@@ -1,7 +1,6 @@
-title:sulfasTor website
-description:sulfasTor Website
-baseurl:"http://sulf.tk"
-url:"http://sulf.tk
+name:	sulfasTor website
+description: sulfasTor Website
+url: http://sulf.tk
 
 # Build settings
 markdown: kramdown
