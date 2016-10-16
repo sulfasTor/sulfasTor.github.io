@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: sulfastor-homepage
 title: Finally powered by Jekyll
 date: 2016-10-16 18:54:13 +0200
 ---
