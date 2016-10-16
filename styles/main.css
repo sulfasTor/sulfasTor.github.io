@@ -141,6 +141,12 @@ nav li a {
     padding: 0 10px;
 }
 
+.nav-bar a:hover {
+    color: black;		/* Make the text black for a effect of inversion. */
+    background: white;		/* Use a greenish color for a highlight effect. */
+    border-color: black;
+}
+
 #copyright-notice {
     text-align: center;
     font: courier;
