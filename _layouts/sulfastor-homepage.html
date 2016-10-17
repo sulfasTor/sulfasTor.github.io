@@ -45,7 +45,7 @@
     {% endif %}
 
     <style type="text/css">
-      .nav-bar a[href="{{ site.baseurl | append: page.url | remove: 'index.html' }}"] {
+      .nav-bar a[href="{{ site.baseurl | append: page.url | remove: 'index.html'}}"] {
       color: black;
       background-color: white;
       border-color: black;
@@ -60,7 +60,28 @@
 
     <header>
       <header><font size="7">WELCOME TO THE INTERNET</font>
+	
 	<div style="text-align: right;"><p1><b>Developped by sulfasTor</p1></div>
+	
+	<!-- ===================== Search Engine ===================== -->
+	<form id="search-form"
+	      target="_blank"
+	      action="https://startpage.com/do/search"
+	      method="post"
+	      name="searchsys"
+	      autocomplete="off"
+	      onsubmit="javascript:document.searchsys.query.value=document.searchsys.keyword.value;">
+
+	  <input id="search-input" name="keyword" />
+	  <input id="search-image"
+		 title="Search this site" alt="Search this site"
+		 type="image" src="/images/spacer.png"/>
+
+	  <input type="hidden" name="query" />
+	  <input type="hidden" name="host" value="sulfastor.github.io"/>
+
+      </form>
+
       </header>
       
       <!-- ===================== Navigation Menu ===================== -->

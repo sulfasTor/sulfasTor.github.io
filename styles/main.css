@@ -147,6 +147,42 @@ nav li a {
     border-color: black;
 }
 
+
+#search-form {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+#search-image {
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    width: 40px;
+    height: 40px;
+    background: url("/images/magnifier.png") no-repeat;
+}
+
+#search-input {
+    display: none;
+    position: absolute;
+    top: 30px;
+}
+
+#search-form:hover {
+    width: 230px;
+    height: 40px;
+}
+
+#search-form:hover #search-input {
+    display: inherit;
+}
+
+#search-form:hover #search-image {
+    background: url("/images/startpage.png") no-repeat;
+}
+
+
 #copyright-notice {
     text-align: center;
     font: courier;
