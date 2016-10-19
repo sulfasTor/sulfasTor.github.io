@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: sulfastor-homepage
 title: Conférence de Richard Stallman à l'Ecole de Management de Grenoble
 date: 2016/10/19 22:24:00 
 ---
