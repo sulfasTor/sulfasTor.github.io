@@ -11,7 +11,7 @@ date: 2016/10/19 22:24:00
 <h2>Sujet: Devrions nous avoir plus de surveillance que dans l'Union Soviétique?</h2>
 
 <p>
-J'ai eu la grande opportunité d'assister à unes des conférences de Richard Stallman, fondateur du logiciel libre.
+J'ai eu la grande opportunité d'assister à unes des conférences de Richard Stallman, fondateur du Free Software Movement.
 C'est quelqu'un que je trouve très intéressant par son parcours ainsi que par sa pensée.
 
 Voici une photo de lui dans l'amphi:
