@@ -3,5 +3,5 @@ description: sulfasTor Website
 url: http://sulf.tk
 
 # Build settings
-markdown: redcarpet
+#markdown: redcarpet
 theme: minima
