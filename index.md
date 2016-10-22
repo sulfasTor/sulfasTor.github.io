@@ -23,6 +23,7 @@ news: [5, '#news-result']
 	Site avec des actualités du monde autour de Linux
     </a></li>
     <!--==================================================================-->
+    <li><a href="http://www.krebsonsecurity.com/">Site of the cyber journalist Brian Krebs</a></li>
     <li style="color: red;"><a  style="color: red;" href="/phishing_example/phishing_example.html">Exemple d'un site phishing</a></li>
   </div>
     
