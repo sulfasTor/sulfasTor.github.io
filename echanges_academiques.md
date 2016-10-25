@@ -7,7 +7,7 @@ permalink: /cc
 <h1>Changese Cademiquesa</h1>
 
 <p> Recompilation des links utiles sur les echanges academiques de l'INSA. <br>
-
+<ul>
 <li><a target='_blank' href='/cc_files/JI_2015_Allemagne_Autriche.pdf
 '>JI_2015_Allemagne_Autriche.pdf
 </a></li><br>
@@ -131,7 +131,7 @@ permalink: /cc
 <li><a target='_blank' href='/cc_files/JI_2015_USA.pdf
 '>JI_2015_USA.pdf
 </a></li><br>
-
+</ul>
 
 </p>
 
