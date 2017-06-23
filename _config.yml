@@ -5,3 +5,5 @@ url: http://sulf.tk
 # Build settings
 #markdown: redcarpet
 theme: minima
+gems:
+  - jekyll-angular
