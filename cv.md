@@ -5,5 +5,5 @@ permalink: /cv/
 ---
 
 <h1> CV in English</h1>
-<a target='_blank' href='/cv/cv_english.pdf'></a>
+<a target='_blank' href='/cv/cv_english.pdf'>CV in PDF</a>
 
