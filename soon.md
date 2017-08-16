@@ -1,8 +1,8 @@
 ---
-title: Soon
+title: Curriculum Vitae
 layout: sulfastor-homepage
 permalink: /cv/
 ---
-<li><a target='_blank' href='/cv/cv_english.pdf'
-CV in English></a></li><br>
+<h1> CV in English</h1>
+<li><a target='_blank' href='/cv/cv_english.pdf'></a></li><br>
 
