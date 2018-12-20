@@ -6,4 +6,8 @@ _site
 *.class
 *c
 *out
-*txt
+*txt.bundle
+vendor
+vendor/
+rvm-install
+.bundle/
