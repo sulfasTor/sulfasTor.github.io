@@ -19,14 +19,22 @@ function main() {
     
     loader
 	.add("assets/img/ironman.png")
+	.add("assets/img/topview.png")
 	.load(setup);
 
     function setup() {
-	let sprite = new PIXI.Sprite(
+	let topView = new Sprite(
+	    resources["assets/img/topview.png"].texture
+	);
+	topView.x = 0;
+	topView.y = 0;
+	app.stage.addChild(topView);
+
+	let sprite = new Sprite(
 	    resources["assets/img/ironman.png"].texture
 	);
-	sprite.x = window.innerWidth / 2;
-	sprite.y = window.innerHeight / 2;
+	sprite.x = topView.width / 2;
+	sprite.y = topView.height / 2;
 	sprite.width = 10;
 	sprite.height = 10;
 
