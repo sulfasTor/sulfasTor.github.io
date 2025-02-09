@@ -1,0 +1,136 @@
+- code: |
+    #include "portability.h"
+    #if HAVE_LINUX_PRCTL_H
+    #include <signal.h>
+    #include <linux/prctl.h>
+    #include <sys/prctl.h>
+    #endif
+
+    /* When called in the engine process before exec, this ensures
+     * the engine is terminated in the event that we crash.
+     */
+    void maybe_kill_orphan_engine()
+    {
+        #if HAVE_LINUX_PRCTL_H
+            prctl (PR_SET_PDEATHSIG, SIGTERM);
+        #endif
+    }
+
+- code: |
+    #include <stdio.h>
+    int main() {
+        printf("Hello, world!\n");
+        return 0;
+    }
+
+- code: |
+    #include <stdlib.h>
+    #include <time.h>
+
+    int main() {
+        srand(time(0));
+        int random_number = rand();
+        printf("Random Number: %d\n", random_number);
+        return 0;
+    }
+
+- code: |
+    def greet():
+        print("Hello, world!")
+    greet()
+
+- code: |
+    print("Hello from Python!")
+    x = 5
+    if x > 2:
+        print("x is greater than 2")
+    else:
+        print("x is not greater than 2")
+
+- code: |
+    function greet() {
+        console.log("Hello, world!");
+    }
+    greet();
+
+- code: |
+    #!/bin/bash
+    echo "Hello, world!"
+    for i in {1..5}
+    do
+        echo "Iteration number $i"
+    done
+
+- code: |
+    import random
+
+    def roll_dice():
+        return random.randint(1, 6)
+
+    print(f"Rolled dice: {roll_dice()}")
+
+- code: |
+    let greeting = "Hello, world!";
+    if (greeting.includes("world")) {
+        console.log("The greeting contains the word 'world'");
+    } else {
+        console.log("The greeting does not contain the word 'world'");
+    }
+
+- code: |
+    var x = 10;
+    var y = 20;
+    var sum = x + y;
+    console.log("The sum of x and y is: " + sum);
+
+- code: |
+    # Ruby Hello World
+    def greet
+      puts "Hello, world!"
+    end
+    greet
+
+- code: |
+    for i in range(10):
+        print(f"Current number: {i}")
+
+- code: |
+    public class HelloWorld {
+        public static void main(String[] args) {
+            System.out.println("Hello, world!");
+        }
+    }
+
+- code: |
+    # JavaScript closure
+    function outer() {
+        var outerVariable = "I'm outside!";
+        function inner() {
+            console.log(outerVariable); // Accessing outer function variable
+        }
+        inner();
+    }
+    outer();
+
+- code: |
+    <?php
+        echo "Hello, world!";
+        $name = "sulfasTor";
+        echo "My name is " . $name;
+    ?>
+
+- code: |
+    # C++ Code to find factorial of a number
+    #include <iostream>
+    using namespace std;
+
+    int factorial(int n) {
+        if (n == 0) return 1;
+        return n * factorial(n - 1);
+    }
+
+    int main() {
+        int num = 5;
+        cout << "Factorial of " << num << " is " << factorial(num) << endl;
+        return 0;
+    }

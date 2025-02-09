@@ -46,9 +46,16 @@
 
     <style type="text/css">
       .nav-bar a[href="{{ site.baseurl | append: page.url | remove: 'index.html'}}"] {
-      color: black;
-      background-color: white;
-      border-color: black;
+        color: black;
+        background-color: white;
+        border-color: black;
+      }
+
+      /* Centering and margin for better readability */
+      .content-container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
       }
     </style>
 
@@ -61,7 +68,7 @@
     <header>
       <header><font size="7">WELCOME TO THE INTERNET</font>
 	
-	<div style="text-align: right;"><p1><b>Developped by sulfasTor</p1></div>
+	<div style="text-align: right;"><p1><b>Developed by sulfasTor</b></p1></div>
 	
 	<!-- ===================== Search Engine ===================== -->
 	<form id="search-form"
@@ -94,79 +101,72 @@
 	  <!-- About me -->
 	  <li><a href="/about">About</a></li>
 
-	  <!-- Jokes -->
-	  <li><a href="/jokes">Jokes</a></li>
-
 	  <!-- Curriculum -->
 	  <li><a href="/cv">Curriculum</a></li>
-
-	  <!-- Chinese Poems -->
-	  <li><a href="/zhongguo_poems">Chinese Poems</a></li>
 	  
 	</ul>
       </nav>
 
     </header>
 
-  <body>
+    <body>
 
-    <article>
+      <article class="content-container">
 
-      <div>
-	{{ content }}
-	
-      </div>
+        <div>
+	  {{ content }}
+        </div>
 
-      <hr> <footer>
-
-	<p style="font-size:70%; color:#939393; text-align:center;">
-	  <big style="font-weight: normal"> "Have I not commanded you?<b> Be strong and courageous.</b> Do not be afraid; do not be discouraged, for the Lord your God will be with you wherever you go."  <b>Joshua 1:9</b>  </big></p>
-	<div id="copyright-notice">
-	  
-	  <p>
-	    <strong>Copyright © 2016 sulfasTor</strong>
+        <hr> 
+        <footer>
+	  <p style="font-size:70%; color:#939393; text-align:center;">
+	    <big style="font-weight: normal"> "Have I not commanded you?<b> Be strong and courageous.</b> Do not be afraid; do not be discouraged, for the Lord your God will be with you wherever you go."  <b>Joshua 1:9</b>  </big>
 	  </p>
 	  
+	  <div id="copyright-notice">
+	    <p>
+	      <strong>Copyright © 2016 sulfasTor</strong>
+	    </p>
 
-	  <p>
-	    <!-- CC BY-ND 4.0 -->
-	    {% if page.license == 'CC BY-ND 4.0' %}
-	    <a href="http://creativecommons.org/licenses/by-nd/4.0/">
-	      <img src="/images/cc-by-nd.png"
-		   title="CC BY-ND 4.0"
-		   alt="CC BY-ND 4.0"
-		   width="88" height="31" /></a>
-	    {% endif %}
+	    <p>
+	      <!-- CC BY-ND 4.0 -->
+	      {% if page.license == 'CC BY-ND 4.0' %}
+	      <a href="http://creativecommons.org/licenses/by-nd/4.0/">
+	        <img src="/images/cc-by-nd.png"
+		     title="CC BY-ND 4.0"
+		     alt="CC BY-ND 4.0"
+		     width="88" height="31" /></a>
+	      {% endif %}
 
-	    <!-- CC BY-ND 4.0 -->
-	    {% if page.license == 'CC BY-SA 4.0' %}
-	    <a href="http://creativecommons.org/licenses/by-sa/4.0/">
-	      <img src="/images/cc-by-sa.png"
-		   title="CC BY-SA 4.0"
-		   alt="CC BY-SA 4.0"
-		   width="88" height="31" /></a>
-	    {% endif %}
+	      <!-- CC BY-SA 4.0 -->
+	      {% if page.license == 'CC BY-SA 4.0' %}
+	      <a href="http://creativecommons.org/licenses/by-sa/4.0/">
+	        <img src="/images/cc-by-sa.png"
+		     title="CC BY-SA 4.0"
+		     alt="CC BY-SA 4.0"
+		     width="88" height="31" /></a>
+	      {% endif %}
 
-	    This work is licensed under a
+	      This work is licensed under a
 
-	    <!-- CC BY-ND 4.0 -->
-	    {% if page.license == 'CC BY-ND 4.0' %}
-	    <abbr title="Creative Commons Attribution-NoDerivatives 4.0 International">
-	      CC BY-ND 4.0</abbr>
-	    {% endif %}
+	      <!-- CC BY-ND 4.0 -->
+	      {% if page.license == 'CC BY-ND 4.0' %}
+	      <abbr title="Creative Commons Attribution-NoDerivatives 4.0 International">
+	        CC BY-ND 4.0</abbr>
+	      {% endif %}
 
-	    <!-- CC BY-SA 4.0 -->
-	    {% if page.license == 'CC BY-SA 4.0' %}
-	    <abbr title="Creative Commons Attribution-ShareAlike 4.0 International">
-	      CC BY-SA 4.0</abbr>
-	    {% endif %}
+	      <!-- CC BY-SA 4.0 -->
+	      {% if page.license == 'CC BY-SA 4.0' %}
+	      <abbr title="Creative Commons Attribution-ShareAlike 4.0 International">
+	        CC BY-SA 4.0</abbr>
+	      {% endif %}
 
-	    license.  You are free to copy and redistribute the material in
-	    any medium or format, for any purpose, provided you abide to the
-	    license terms.
-	  </p>
-	</div>
-      </footer>
-    </article>
-  </body>
+	      license. You are free to copy and redistribute the material in
+	      any medium or format, for any purpose, provided you abide by the
+	      license terms.
+	    </p>
+	  </div>
+        </footer>
+      </article>
+    </body>
 </html>

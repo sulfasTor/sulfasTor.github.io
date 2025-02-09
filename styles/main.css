@@ -48,16 +48,76 @@ hr {
     margin-bottom: 2em;
     box-shadow: 5px 5px 5px rgba(2,6,7,2);
 }
-.console {
-    margin-top: 4em;
-    margin-bottom: 4em;
-    background: black;
-    color: #00FF00;
-    font-size:80%;
-    overflow:auto;
-    width:auto;
-    padding:.2em .6em;
+/* Fixing the first-line margin for code snippets */
+pre {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove padding */
 }
+
+/* Beautify the console to look like a terminal */
+.console {
+    background-color: #1e1e1e;
+    color: #00ff00; /* Classic green text color for terminal */
+    font-family: "Courier New", Courier, monospace;
+    padding: 15px;
+    border-radius: 5px;
+    white-space: pre-wrap; /* Ensure long lines wrap */
+    word-wrap: break-word;
+    font-size: 16px;
+    line-height: 1.6;
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.3);
+    width: auto;
+    max-width: 100%;
+    margin: 10px 0;
+}
+
+.console b {
+    color: #ff9900; /* Command prompt color */
+}
+
+.console span {
+    font-family: "Courier New", Courier, monospace;
+}
+
+.console span[color="lightgreen"] {
+    color: lightgreen;
+}
+
+.console span[color="lightgray"] {
+    color: lightgray;
+}
+
+.console span[color="cyan"] {
+    color: cyan;
+}
+
+/* Style for random code blocks */
+#random-code {
+    background-color: #282828;
+    padding: 20px;
+    border-radius: 8px;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 14px;
+    color: #f8f8f2;
+    line-height: 1.6;
+    overflow-x: auto;
+}
+
+#random-code pre {
+    margin: 0;
+    padding: 0;
+}
+
+#random-code code {
+    display: block;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+#random-code table {
+    width: 100%;
+}
+
 h5{
     color: red;
     font-size: 2em;

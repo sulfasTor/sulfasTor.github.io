@@ -30,8 +30,14 @@
     width: 50%;
 }
 
-.feed-item-date {
-    display: inline-block;
-    text-align: right;
-    width: 50%;
+#news h1, #news h2, #news h3, #news h4, #news h5, #news h6 {
+    display: none;
+}
+
+/* Truncate the first paragraph to 100 characters visually */
+#news p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%; /* Ensures the text does not overflow */
 }

@@ -7,55 +7,28 @@ permalink: /about/
 
 <h1>My shell</h1>
 
-<div class="console">  
-<b>sulfasTor@pc:~$</b> mind | grep "who am I?" > about.html <br />
-mind: information not found. Still thinking... <br />
-<b>sulfasTor@pc:~$</b> ls -a <br />
-. &nbsp;&nbsp;&nbsp;&nbsp;  .genius&nbsp;     .intelligence <br />
-.. &nbsp;&nbsp;&nbsp; 	    .linux &nbsp;	.proficiency <br />
-.gnu &nbsp; Public &nbsp;	.innovation <br />
-    .fsf &nbsp;   .games &nbsp; README.md 
-
-    
+<div class="console">
+  <b>sulfasTor@pc:~$</b> mind | grep "who am I?" > about.html <br />
+  mind: information not found. Still thinking... <br />
+  <b>sulfasTor@pc:~$</b> ls <br />
+  <span style="color: lightgreen;">drwxr-xr-x</span>  <span style="color: lightgray;">5 sulfasTor sulfasTor 4096 Feb  9 10:10</span> <span style="color: cyan;">Resume</span> <br />
+  <span style="color: lightgreen;">drwxr-xr-x</span>  <span style="color: lightgray;">7 sulfasTor sulfasTor 4096 Feb  9 09:50</span> <span style="color: cyan;">Portfolio</span> <br />
+  <span style="color: lightgreen;">drwxr-xr-x</span>  <span style="color: lightgray;">3 sulfasTor sulfasTor 4096 Feb  9 09:40</span> <span style="color: cyan;">Skills</span> <br />
+  <span style="color: lightgreen;">drwxr-xr-x</span>  <span style="color: lightgray;">4 sulfasTor sulfasTor 4096 Feb  9 09:30</span> <span style="color: cyan;">Projects</span> <br />
+  <span style="color: lightgreen;">-rw-r--r--</span>  <span style="color: lightgray;">1 sulfasTor sulfasTor  1024 Feb  9 09:10</span> <span style="color: cyan;">CV.pdf</span> <br />
+  <span style="color: lightgreen;">-rw-r--r--</span>  <span style="color: lightgray;">1 sulfasTor sulfasTor  5120 Feb  9 08:50</span> <span style="color: cyan;">experience.txt</span> <br />
+  <span style="color: lightgreen;">drwxr-xr-x</span>  <span style="color: lightgray;">6 sulfasTor sulfasTor 4096 Feb  9 08:40</span> <span style="color: cyan;">contacts</span> <br />
+  <span style="color: lightgreen;">-rw-r--r--</span>  <span style="color: lightgray;">1 sulfasTor sulfasTor  8192 Feb  9 08:30</span> <span style="color: cyan;">education.pdf</span> <br />
 </div>
 
-<div> <h1>Random code</h1>
-<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><table><tr><td><pre style="margin: 0; line-height: 125%"> 1
- 2
- 3
- 4
- 5
- 6
- 7
- 8
- 9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19</pre></td><td><pre style="margin: 0; line-height: 125%"><span style="color: #557799">#include &quot;portability.h&quot;</span>
+<div id="random-code">
+  <h1>Random Code</h1>
+  <pre><code>
+    #include &lt;stdio.h&gt;
 
-<span style="color: #557799">#if HAVE_LINUX_PRCTL_H</span>
-<span style="color: #557799">#include &lt;signal.h&gt;</span>
-
-<span style="color: #557799">#include &lt;linux/prctl.h&gt;</span>
-<span style="color: #557799">#include &lt;sys/prctl.h&gt;</span>
-<span style="color: #557799">#endif</span>
-
-<span style="color: #888888">/*</span>
-<span style="color: #888888"> * When called in the engine process before exec, this ensures</span>
-<span style="color: #888888"> * the engine is terminated in the event that we crash.</span>
-<span style="color: #888888"> */</span>
-<span style="color: #333399; font-weight: bold">void</span> <span style="color: #0066BB; font-weight: bold">maybe_kill_orphan_engine</span> ()
-{
-<span style="color: #557799">#if HAVE_LINUX_PRCTL_H</span>
-    prctl (PR_SET_PDEATHSIG, SIGTERM);
-<span style="color: #557799">#endif</span>
-}
-</pre></td></tr></table></div>
-
+    int main() {
+        printf(&quot;Hello, world!&quot;);
+        return 0;
+    }
+  </code></pre>
+</div>
