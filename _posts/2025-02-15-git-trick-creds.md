@@ -3,7 +3,6 @@ layout: sulfastor-homepage
 title: Git tricks - credential.helper
 excerpt_separator: <!--more-->
 date: 2025-02-15 16:45:14
-tag:
 ---
 
 TIL credential.helper which makes life easier when authenticating to remote
