@@ -1,6 +1,6 @@
 ---
 layout: sulfastor-homepage
-title: Git tricks: credential.helper
+title: Git tricks - credential.helper
 excerpt_separator: <!--more-->
 date: 2025-02-15 16:45:14
 tag:
